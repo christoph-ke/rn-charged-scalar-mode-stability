@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite it using this metadata."
+type: software
+title: "Charged scalar mode stability on Reissner–Nordström"
+authors:
+  - family-names: Kehle
+    given-names: Christoph
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/christoph-ke/rn-charged-scalar-mode-stability"
+url: "https://github.com/christoph-ke/rn-charged-scalar-mode-stability"
+abstract: >-
+  Lean 4 formalization of spherical and all-angular radial real-frequency mode
+  exclusion, endpoint solution theory, and inhomogeneous estimates for the
+  massless charged scalar equation on Reissner–Nordström, based on research
+  notes in preparation by Christoph Kehle dated 8 and 9 October 2026.

@@ -1,0 +1,117 @@
+module
+
+public import ModeStability.Section3.Numerators
+public import ModeStability.Section3.Expansion
+public import ModeStability.ODE.Uniqueness
+public import ModeStability.Current.Dephased
+public import ModeStability.Exterior.Basic
+public import ModeStability.Frozen.RadiusOfSpec
+public import ModeStability.Frozen.DephasedCurrentLemma
+public import ModeStability.Exterior.Reduction
+public import ModeStability.Frozen.ExactReduction
+public import ModeStability.Section3.Representation
+public import ModeStability.Section3.Inequalities
+public import ModeStability.Frozen.CoefficientInequalities
+public import ModeStability.Endpoint.Common
+public import ModeStability.Endpoint.Horizon
+public import ModeStability.Endpoint.Infinity
+public import ModeStability.Corotation.Basic
+public import ModeStability.Corotation.Monotone
+public import ModeStability.Corotation.Assembly
+public import ModeStability.Main.Conjugation
+public import ModeStability.Main.Reduction
+public import ModeStability.Flux.Basic
+public import ModeStability.Frozen.FluxIdentity
+public import ModeStability.Frozen.SeparationAtCorotation
+public import ModeStability.Frozen.SphericalRealModeExclusion
+public import ModeStability.AllAngular.AngularAlgebra
+public import ModeStability.AllAngular.Geometry
+public import ModeStability.AllAngular.ScalarPositivity
+public import ModeStability.AllAngular.ConstantNormalization
+public import ModeStability.AllAngular.ConstantEndpoints
+public import ModeStability.AllAngular.InfinityUniqueness
+public import ModeStability.AllAngular.InterfaceEndpoint
+public import ModeStability.AllAngular.CoefficientIdentities
+public import ModeStability.AllAngular.BandExclusionCoeff
+public import ModeStability.AllAngular.BandExclusionFlux
+public import ModeStability.AllAngular.BandExclusion
+public import ModeStability.AllAngular.BandExclusionFinal
+public import ModeStability.AllAngular.SphericalUnconditional
+public import ModeStability.AllAngular.CurrentOnInterval
+public import ModeStability.AllAngular.AngularReduction
+public import ModeStability.AllAngular.TurningPoint
+public import ModeStability.AllAngular.FluxL
+public import ModeStability.AllAngular.FluxLConj
+public import ModeStability.AllAngular.TurningPointGeometry
+public import ModeStability.AllAngular.GlobalIdentity
+public import ModeStability.AllAngular.HorizonLimitsL
+public import ModeStability.AllAngular.ExtremalHorizonLimits
+public import ModeStability.AllAngular.MainAssembly
+public import ModeStability.AllAngular.InfinityLimitsL
+public import ModeStability.AllAngular.CoordinateCoefficients
+public import ModeStability.AllAngular.CoordinateIntervals
+public import ModeStability.AllAngular.SuperradiantExtConstant
+public import ModeStability.AllAngular.SuperradiantSubReciprocal
+public import ModeStability.AllAngular.SuperradiantExtReciprocal
+public import ModeStability.AllAngular.SuperradiantSubConstant
+public import ModeStability.AllAngular.RealModeExclusionL
+public import ModeStability.AllAngular.ZeroFrequencyNeutral
+public import ModeStability.AllAngular.ZeroFrequencyInfinity
+public import ModeStability.AllAngular.HorizonUniqueness
+public import ModeStability.AllAngular.ZeroFrequencyExclusion
+public import ModeStability.ODE.LinearVolterra
+public import ModeStability.ODE.LinearStability
+public import ModeStability.AllAngular.HorizonSolution
+public import ModeStability.AllAngular.InfinitySolution
+public import ModeStability.AllAngular.UniformConstant
+public import ModeStability.AllAngular.GreenFormula
+public import ModeStability.AllAngular.SourceIdentity
+public import ModeStability.AllAngular.LargeL
+public import ModeStability.AllAngular.SolutionContinuity
+public import ModeStability.AllAngular.BoundedL
+public import ModeStability.AllAngular.BoundedLCoefficients
+public import ModeStability.AllAngular.Prop61Interface
+public import ModeStability.AllAngular.InhomogeneousAssembly
+public import ModeStability.AllAngular.BoundedLR
+public import ModeStability.AllAngular.Prop61Multiplier
+public import ModeStability.AllAngular.SourceIdentitySubReciprocal
+public import ModeStability.AllAngular.SourceIdentitySubConstant
+public import ModeStability.AllAngular.SourceIdentityExtReciprocal
+public import ModeStability.AllAngular.SourceIdentityExtConstant
+public import ModeStability.AllAngular.SourceIdentityAll
+public import ModeStability.AllAngular.SourceIdentityRTurning
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalTurning
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalTransport
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalEndpoints
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalCurrent
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalCoefficients
+public import ModeStability.AllAngular.SourceIdentityRRegions
+public import ModeStability.AllAngular.SourceIdentityRLocality
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalReduction
+public import ModeStability.AllAngular.SourceIdentityRSubReciprocalAux
+public import ModeStability.AllAngular.SourceIdentityRGlobal
+public import ModeStability.AllAngular.SourceIdentityRImproper
+public import ModeStability.AllAngular.SourceIdentityRAux
+public import ModeStability.AllAngular.NormalizationFacts
+public import ModeStability.Frozen.AllAngular.CommonGeometry
+public import ModeStability.Frozen.AllAngular.ScalarPositivity
+public import ModeStability.Frozen.AllAngular.AngularPositivity
+public import ModeStability.Frozen.AllAngular.RealModeExclusion
+public import ModeStability.Frozen.AllAngular.ComplementaryBandExclusionHolds
+public import ModeStability.Frozen.AllAngular.SphericalRealModeExclusionUnconditional
+public import ModeStability.Frozen.AllAngular.ZeroFrequencyExclusion
+public import ModeStability.Frozen.AllAngular.IsRadialSolutionWithSourceL
+public import ModeStability.Frozen.AllAngular.HorizonSolutionExistsUnique
+public import ModeStability.Frozen.AllAngular.InfinitySolutionExistsUnique
+public import ModeStability.Frozen.AllAngular.HorizonSolutionContinuous
+public import ModeStability.Frozen.AllAngular.InfinitySolutionContinuous
+public import ModeStability.Frozen.AllAngular.SourceSolutionExistsUnique
+public import ModeStability.Frozen.AllAngular.InhomogeneousEstimate
+
+/-!
+# Charged scalar mode stability on Reissner–Nordström
+
+Root module for the spherical and all-angular formalizations of research notes
+in preparation by Christoph Kehle (8 and 9 October 2026). All theorem anchors
+imported here are proved.
+-/
