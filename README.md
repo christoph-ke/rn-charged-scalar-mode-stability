@@ -6,8 +6,8 @@ spherical problem on subextremal exteriors and the all-angular problem on both
 subextremal and extremal exteriors.
 
 The mathematical sources are Christoph Kehle's **research notes in preparation**,
-dated 8 October 2026 (spherical) and 9 October 2026 (all-angular). The original
-spherical notes were prompted by Ryan Unger. The notes are unpublished and are
+dated 8 October 2026 (spherical) and 9 October 2026 (all-angular). Both sets of
+notes were prompted by Ryan Unger. The notes are unpublished and are
 not distributed here. The result numbers below refer to
 those two sets of notes. [SOURCE_GAPS.md](SOURCE_GAPS.md) describes the missing
 arguments and ambiguities resolved during formalization.
